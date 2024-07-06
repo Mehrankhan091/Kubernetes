@@ -1,0 +1,24 @@
+Starting Environment:
+
+Laptop (Linux)
+  Minikube
+  Kubeadm
+
+Physical Servers
+Cloud Servers
+
+For Production Purposes:
+
+Turnkey Solutions
+  Provision the necessary VMs and use tools or scripts to configure Kubernetes clusters.
+  Responsible for maintaining and patching VMs.
+  VM provisioning and configuration handled by you.
+  Use scripts for cluster deployment.
+  Self-manage VMs, e.g., Kubernetes on AWS using Kops.
+
+Hosted Solutions (Managed Solutions)
+  These resemble Kubernetes-as-a-Service offerings.
+  Provision VMs.
+  Install Kubernetes.
+  Manage VM maintenance.
+  Examples include Google Kubernetes Engine (GKE).
