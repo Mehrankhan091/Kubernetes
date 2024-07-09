@@ -1,0 +1,5 @@
+# Here we will create a Volume for our DB pod
+aws ec2 create-volume --availability-zone=us-east-2a --size=3 --volume-type=gp2
+
+# Note the {volumeID}
+# Note: The volume and the Node should be in the same AZ
